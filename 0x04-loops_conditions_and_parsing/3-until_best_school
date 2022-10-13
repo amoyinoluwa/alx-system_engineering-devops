@@ -3,6 +3,6 @@
 x=0
 until [ $x -eq 10 ]
 do
-x=$(( x + 1 ))
-echo "Best School"
+	x=$(( x + 1 ))
+	echo "Best School"
 done

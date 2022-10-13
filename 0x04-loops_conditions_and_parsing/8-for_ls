@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 for f in *
 do
-echo $f | cut -d "-" -f2
+	echo $f | cut -d "-" -f2
 done
