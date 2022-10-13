@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# prints "Best School" ten times"
 x=0
 until [ $x -eq 10 ]
 do

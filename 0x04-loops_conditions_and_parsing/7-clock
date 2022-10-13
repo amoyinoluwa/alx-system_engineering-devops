@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# prints twelve hours with minutes
+
 x=0
 while [ $x -le 12 ]
 do
