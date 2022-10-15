@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#get the PID of current shell script
+
+echo $BASHPID
