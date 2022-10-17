@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# kills a running program
+
+kill $(cat start_sh.pid) || echo "Terminated"

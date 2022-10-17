@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # prints indefinitely
-
+echo $$ >> start_sh.pid
 while :
 do
 	echo "To infinity and beyond"
