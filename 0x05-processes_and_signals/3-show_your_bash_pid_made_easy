@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# displays bash pid
+
+top -b -n 1 | grep 'bash' | awk '{ print $1, $12 }' | tail -2
